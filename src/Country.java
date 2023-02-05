@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Country {
+public class Country {
+private String name;
+
+Country(String name){
+    this.name=name;
+}
+
+    public String getName() {
+        return name;
+    }
 }
